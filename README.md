@@ -14,7 +14,8 @@ Referring Image Segmentation is a comprehensive task to segment an object referr
 [2024/09/19] Code Release
 
 ## Note
-We release the dataloader for NeMo, which augments each image by combining it with other three hard negative images from the image pool. The image pool consists of visually similar images based on their similarity scores of CLIP. Lmdb files for each dataset are needed for the dataloader.
+We release the dataloder code for NeMo, which augments each image by combining it with three hard negatives to create a mosaic. This dataloader code is based on the implementation code of [CRIS](https://github.com/DerrickWang005/CRIS.pytorch). Please refer to this repository for more details. Also, LMDB files for each dataset are need to load the image pool. 
+
 
 ## Citation
 ```
