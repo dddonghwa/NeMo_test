@@ -16,6 +16,8 @@ Referring Image Segmentation is a comprehensive task to segment an object referr
 ## Note
 We release the dataloder code for NeMo, which augments each image by combining it with three hard negatives to create a mosaic. This dataloader code is based on the implementation code of [CRIS](https://github.com/DerrickWang005/CRIS.pytorch). Please refer to this repository for more details. Also, LMDB files for each dataset are need to load the image pool. 
 
+## License
+This project is under the MIT license following the previous works. See LICENSE for details.
 
 ## Citation
 ```
